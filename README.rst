@@ -1,7 +1,7 @@
 dicompyler-core
 ===============
 
-|Binder| |pypi| |Python Version| |GH Actions| |Documentation Status| |coveralls| |Codacy| |Codecov| |LGTM| |Total Lines| |Code Size| |Zenodo|
+|Binder| |pypi| |Python Version| |GH Actions| |Documentation Status| |coveralls| |Codacy| |Codecov| |Total Lines| |Code Size| |Zenodo|
 
 A library of core radiation therapy modules for DICOM / DICOM RT used by `dicompyler <http://www.dicompyler.com>`__. This
 package includes:
@@ -24,7 +24,6 @@ Dependencies
 -  `numpy <http://www.numpy.org>`__ 1.2 or higher
 -  `pydicom <https://pydicom.github.io>`__ 0.9.9 or higher (pydicom 1.0 compatible)
 -  `matplotlib <http://matplotlib.org>`__ 1.3.0 or higher (for DVH calculation)
--  `six <https://pythonhosted.org/six/>`__ 1.5 or higher
 -  Optional:
 
    -  `Pillow <https://pillow.readthedocs.io>`__ (for image display)
@@ -98,8 +97,6 @@ This package was created with
    :target: https://app.codacy.com/gh/dicompyler/dicompyler-core/dashboard
 .. |Codecov| image:: https://codecov.io/gh/dicompyler/dicompyler-core/branch/master/graph/badge.svg
    :target: https://codecov.io/gh/dicompyler/dicompyler-core
-.. |LGTM| image:: https://img.shields.io/lgtm/alerts/g/dicompyler/dicompyler-core.svg?logo=lgtm&logoWidth=18
-   :target: https://lgtm.com/projects/g/dicompyler/dicompyler-core/alerts/
 .. |Total Lines| image:: https://img.shields.io/tokei/lines/github/dicompyler/dicompyler-core
    :target: https://img.shields.io/tokei/lines/github/dicompyler/dicompyler-core
 .. |Code Size| image:: https://img.shields.io/github/languages/code-size/dicompyler/dicompyler-core

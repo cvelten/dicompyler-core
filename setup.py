@@ -18,7 +18,7 @@ test_requirements = [
 
 setup(
     name='dicompyler-core',
-    version='0.5.6',
+    version='0.5.7',
     description="A library of core radiation therapy modules for DICOM / " +
                 "DICOM RT used by dicompyler",
     long_description=readme,
@@ -33,7 +33,6 @@ setup(
     include_package_data=True,
     install_requires=[
         "numpy>=1.2",
-        "six>=1.5",
         "pydicom>=0.9.9",
         "matplotlib>=1.3.0"
     ],
